@@ -17,7 +17,7 @@ class _HeaderLoginPainter extends CustomPainter {
   @override
   void paint(Canvas canvas, Size size) {
     final paint = new Paint();
-    paint.color = Colors.black;
+    paint.color = Colors.blue.shade800;
     paint.style = PaintingStyle.fill;
 
     final path = new Path();
@@ -50,7 +50,7 @@ class _HeaderSignUpPainter extends CustomPainter {
   @override
   void paint(Canvas canvas, Size size) {
     final paint = new Paint();
-    paint.color = Colors.black;
+    paint.color = Colors.blue.shade800;
     paint.style = PaintingStyle.fill;
 
     final path = new Path();
@@ -83,7 +83,7 @@ class _BluePainter extends CustomPainter {
   @override
   void paint(Canvas canvas, Size size) {
     final paint = new Paint();
-    paint.color = Colors.black;
+    paint.color = Colors.blue.shade200;
     paint.style = PaintingStyle.fill;
 
     final path = new Path();

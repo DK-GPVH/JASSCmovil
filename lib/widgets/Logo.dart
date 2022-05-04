@@ -10,16 +10,16 @@ class LogoHeader extends StatelessWidget {
         height: 100,
         width: 100,
         decoration: BoxDecoration(
-            color: Colors.black,
+            color: Colors.blue.shade800,
             borderRadius: BorderRadius.circular(50),
-            boxShadow: [BoxShadow(blurRadius: 10, color: Colors.greenAccent)]),
+            boxShadow: [BoxShadow(blurRadius: 10, color: Colors.white)]),
         child: Align(
             alignment: Alignment.center,
-            child: Text('SHOPPINGXD',
+            child: Text('JASSC',
                 style: TextStyle(
-                  fontSize: 15,
+                  fontSize: 30,
                   fontWeight: FontWeight.bold,
-                  color: Colors.greenAccent.shade400,
+                  color: Colors.white,
                 ))),
       ),
     );
