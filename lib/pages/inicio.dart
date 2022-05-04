@@ -34,6 +34,7 @@ class _InicioState extends State<Inicio> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+        debugShowCheckedModeBanner: false,
         title: 'JASSC',
         home: Scaffold(
           backgroundColor: Colors.black,

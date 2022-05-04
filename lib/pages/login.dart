@@ -4,7 +4,6 @@ import 'package:prueba/pages/skateunit.dart';
 import 'package:prueba/pages/inicio.dart';
 import 'package:prueba/widgets/Header.dart';
 import 'package:prueba/widgets/Logo.dart';
-import 'package:prueba/widgets/TextFieldCustom.dart';
 
 TextEditingController manzana = TextEditingController(text: "");
 TextEditingController lote = TextEditingController(text: "");
